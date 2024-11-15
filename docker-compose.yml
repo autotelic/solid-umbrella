@@ -1,0 +1,7 @@
+services:
+  jokes-api:
+    image: autotelic/official-joke-api
+    ports:
+      - "3005:3005"
+    environment:
+      - PORT=3005
